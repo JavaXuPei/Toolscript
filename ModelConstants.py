@@ -56,7 +56,7 @@ titleName = content[0]
 os.mkdir(titleName.replace("_", ""))
 # 文件读取
 for val in content:
-    if index == 1:
+    if index ==0:
         one = val
         msg = "public static final String %s_TABLE_NAME = \"%s\"" % (val.upper(), val) + ";"
         message.append(msg)
