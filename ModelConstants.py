@@ -51,7 +51,7 @@ del content[0:6]
 for val in content:
     print(val)
 # 表名位第7行
-titleName = content[1]
+titleName = content[0]
 # 创建目录
 os.mkdir(titleName.replace("_", ""))
 # 文件读取
