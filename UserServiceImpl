@@ -1,0 +1,6 @@
+@Service
+@Slf4j
+public class {}ServiceImpl extends AbstractEntityService implements {}Service
+{
+
+}

@@ -1,0 +1,17 @@
+@Component
+@SqlDao
+public class Jpa{0}Dao extends JpaAbstractDao<{0}Entity, {0}> implements {0}Dao
+{
+    @Autowired
+    private {0}Repository {1}Repository;
+    @Override
+    protected Class<{0}Entity> getEntityClass()
+    {
+        return {0}Entity.class;
+    }
+    @Override
+    protected BaseRepository<{0}Entity, Long> getJpaRepository()
+    {
+        return {1}Repository;
+    }
+}

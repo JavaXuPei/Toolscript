@@ -1,0 +1,14 @@
+/**
+ * 
+ * @Description 描述
+ * @Author  作者
+ * @Date  创建时间 
+ */
+freight
+freight_number
+material
+material_code
+size
+net_weight
+production_unit
+client

@@ -1,0 +1,5 @@
+@SqlDao
+public interface {}Repository extends BaseRepository<{}Entity, Long>
+{
+
+}
